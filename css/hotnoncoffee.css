@@ -1,0 +1,254 @@
+@charset "utf-8";
+body{
+    background-image: url(../img/back.jpg);
+    /* background-repeat: no-repeat; */
+    background-position:center;
+}
+#header ul{
+    margin-top:20px;
+    border-bottom:5px solid #464646	;
+    margin-bottom:15px;
+}
+#header ul > li{
+    display:inline-block;
+    font-size:30px;
+    border:2px solid #c8c8c8	;
+    border-radius:10px;
+    padding: 5px;
+    margin-bottom:15px;
+    font-weight:bold;
+}
+
+#header ul .back{
+    border:none;
+    font-size:40px;
+    margin-left:20px;
+    
+}
+
+#header ul > li:nth-child(2){
+    color:brown;
+    background-color:yellow;
+    margin-left:70px;
+}
+
+#header ul > li:nth-child(3){
+    color:brown;
+    background-color: yellow;
+}
+
+#header ul > li:nth-child(4){
+    color:brown;
+    background-color: yellow;
+}
+#header ul > li:nth-child(5){
+    color:brown;
+    background-color:#fff;
+}
+#header ul > li:nth-child(6){
+    color:blue;
+    background-color:yellow;
+    margin-right:70px;
+}
+#header ul .foward{
+    border:none;
+    font-size:40px;
+}
+
+#section .coffeemenu .menu > li{
+    width:250px;
+    height:250px;
+    display:inline-block;
+    border:5px solid #EBF5FF;
+    background-color:#FFF;
+    box-shadow: 0px 0px 20px #505050;
+    border-radius:25px;
+    text-align:center;
+    line-height:80px;
+    margin-bottom:50px;
+    /* margin-right:70px; */
+    margin-left:60px;
+    font-size:30px;
+    cursor: pointer;
+}
+
+#section .coffeemenu .menu > li > i {
+    margin-top:20px;
+    font-size:100px;
+    color:gray;
+}
+
+#section .coffeemenu .menu > li >span{
+    display:block;
+    line-height: 0px;
+    font-size:20px;
+}
+
+.popupbox{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.5s;
+    display:none;
+}
+
+.popupbox.active{
+    background-color:rgba(0, 0, 0, 0.5);
+    display:block;
+}
+
+.popupbox > .popup{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-60%);
+    border:10px solid black;
+    width:600px;
+    height:600px;
+    background-color:white;
+    transition: all 0.3s;
+    z-index:99;
+}
+
+
+
+.popupbox > .popup > .btn-close{
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:0;
+    right:0;
+    cursor:pointer;
+    transition:all 0.3s
+}
+.popupbox > .popup > .btn-close:hover{
+    transform:scale(1.1)
+}
+
+.popupbox > .popup > .btn-close::before,.popupbox > .popup > .btn-close::after{
+    content:"";
+    position:absolute;
+    top:40px;
+    right:20px;
+    width:15%;
+    height:80%;
+    transform:translate(-50%,-50%) rotate(45deg);
+    background-color:black;
+}
+
+.popupbox > .popup > .btn-close::after{
+    transform:translate(-50%,-50%) rotate(-45deg);
+}
+
+
+.popupcontent > i{
+    color:gray;
+    font-size:200px;
+    position:absolute;
+    top:10%;
+    left:35%;
+    display:inline-block;
+}
+
+.popupcontent1 p {
+    font-size:20px;
+    position:absolute;
+    bottom:40%;
+    left:35%;
+}
+
+.popupcontent ul{
+    font-size:30px;
+    position:absolute;
+    bottom:100px;
+    left:50px;
+}
+
+.popupcontent ul > li {
+    width:150px;
+    display:inline-block;
+    border:1px solid black;
+    border-radius:25px;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.popupcontent button{
+    position:absolute;
+    bottom:5%;
+    left:41%;
+    font-size:30px;
+    border-radius:15px;
+    width:100px;
+    transition:0.3s;
+}
+
+.popupcontent button:hover{
+    transform:scale(1.2);
+}
+
+.popupcontent2 p {
+    font-size:20px;
+    position:absolute;
+    bottom:40%;
+    left:35%;
+}
+
+.popupcontent3 p {
+    font-size:20px;
+    position:absolute;
+    bottom:40%;
+    left:37%;
+}
+
+.popupcontent4 p {
+    font-size:20px;
+    position:absolute;
+    bottom:40%;
+    left:28%;
+}
+.popupcontent5 p {
+    font-size:20px;
+    position:absolute;
+    bottom:40%;
+    left:34%;
+}
+.popupcontent6 p {
+    font-size:20px;
+    position:absolute;
+    bottom:40%;
+    left:34%;
+}
+.popupcontent7 p {
+    font-size:20px;
+    position:absolute;
+    bottom:40%;
+    left:34%;
+}
+.popupcontent8 p {
+    font-size:20px;
+    position:absolute;
+    bottom:40%;
+    left:38%;
+}
+
+.pay a{
+    width:300px; 
+    height:100px;
+    position:absolute;
+    left:44%;
+    color:#fff;
+    font-weight:bold;
+    font-size:40px;
+    border:1px solid #fff;
+    background-color:rgba(0, 0, 0, 0.8);
+    box-shadow: 10px 10px 10px black;
+    text-align:center;
+    line-height: 100px;
+    border-radius:75px;
+    margin-top:50px;
+}
+.abc{background-color: 	#ffcd28 !important;}

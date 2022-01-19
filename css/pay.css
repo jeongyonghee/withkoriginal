@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+body{
+    background-image: url(../img/back.jpg);
+    /* background-repeat: no-repeat; */
+    background-position:center;
+}
+
+div{display:inline-block;}
+
+
+.pay{font-size:100px; margin-top:200px; text-align:center; color:	#D2E1FF; font-weight:bold;}
+
+.cash{
+    border:1px solid #fff; 
+    border-radius:25px; 
+    width:400px; 
+    height: 300px;
+    box-shadow: 10px 10px 10px black;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card{
+    border:1px solid #fff; 
+    border-radius:25px; 
+    width:400px; 
+    height: 300px;
+    box-shadow: 10px 10px 10px black;
+    background-color: rgba(0, 0, 0, 0.7); 
+    margin-bottom:70px;}
+
+.ccc{
+    border:1px solid #fff; 
+    border-radius:25px; 
+    width:840px; 
+    height:200px;
+    box-shadow: 10px 10px 10px black;
+    background-color: rgba(0, 0, 0, 0.7); 
+    line-height: 200px;}
+
+
+
+
+
+
